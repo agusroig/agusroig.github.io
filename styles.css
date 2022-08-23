@@ -118,8 +118,8 @@ img.design{max-width: 100%; width: 400px;}
     height: 140px;
     border-radius: 50%;
     padding:20px;
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-                -6px -6px 10px -1px rgba(255,255,255,0.7);
+    /* box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7); */
 }
 .inner{
     width: 100px;
@@ -252,7 +252,7 @@ h5.modal-title{
     .hero-text {
         padding: 2rem 0;
     }
-    iframe{max-width: 100%;}
+    iframe{max-width: 100%; display: block; margin: auto;}
     header{
         background-position-x: 80%;
     }
