@@ -1,4 +1,384 @@
-<html>
-    <h1 style="margin:3rem; text-align: center; font-family: sans-serif; font-size: 3.2rem; color: darkgray;">Agustina Roig's Portfolio</h1>
-    <img src="./photo.png" alt="" style="margin:3rem auto; display: block; width: 24rem;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <title>Maria Agustina Roig's Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container navigation">
+          <a class="navbar-brand" href="#">My<b>Portfolio</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#top">Home</a>
+              <a class="nav-link" href="#about-me">A little bit about me</a>
+              <a class="nav-link" href="#my-skills">My Skills</a>
+              <a class="nav-link" href="#my-work">My Projects</a>
+              <a class="nav-link" href="mailto:agustina.roig@gmail.com">Contact me</a>
+              <a class="nav-link" href="https://www.linkedin.com/in/maria-agustina-roig-52b86264/" target="_blank"><img src="./images/linkedin-white.png" alt="Linkedin" width="30"></a>
+              <a class="nav-link" href="https://twitter.com/agustina_roig1" target="_blank"><img src="./images/twitter-white.png" alt="Twitter" width="30"></a>
+              <a class="nav-link" href="https://github.com/agusroig" target="_blank"><img src="./images/github-white.png" alt="Github" width="30"></a>
+
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="container" id="top">
+           <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="hero-text">
+                        <h5>I am</h5>
+                        <h1>Maria Agustina Roig</h1>
+                        <h2>Web <span style="color:#75fbe7">Developer.</span> </h2>
+                        <h2> & Graphic <span style="color:#DB55ED">Designer.</span></h2>
+                        <button type="button" class="btn btn-primary btn-lg" onclick="window.open('mailto:agustina.roig@gmail.com')">Let's talk</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6"> </div>
+            </div>
+           </div>
+        </div>
+
+      </header>
+        <section id="about-me" class="about-me">
+            <div class="container">
+                <div class="col-12">
+                    <h1 class="text-center"><img src="./images/icon-parlante.jpg" alt="megafone" width="50"> A little bit of me</h1>
+                </div>
+                <div class="background-about">
+                     <div class="col-12 video">
+                        <div class="row">
+                            <div class="col-12 col-md-5">
+                                <p class="lead">  I’m <b>Maria Agustina Roig</b>, I am a <b>Graphic Designer</b> since 2004, Once I <b>graduated from the University of Buenos Aires</b>, I began my path in graphic and digital design, working mainly on web pages, designing but also <b>coding</b>, especially coding lately.</p>
+                                <img src="./images/img-design.svg" alt="Design" class="mt-3 design">
+                                <p class="normal"> I have worked for design studios in Buenos Aires, getting to work for famous brands such as Disney or McDonald’s among others.</p>
+                            </div>
+                            
+                            <div class="col-12 col-md-7">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Yog7C9pOGh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                <p class="normal"> Then I made my own way working as a freelance for a while and after a few years I started working remotely for a language learning company that has its main building in the US, for whom I still work.</p>
+        
+                                <p class="normal"> I lived all my life in Buenos Aires, Argentina, a city I love, but a year ago <b>I moved to the United States</b>, making Tennessee my new home now.</p>
+        
+                                <p class="normal"> After many years of experience, working with a lot of HTML and CSS and a bit of Javascript, I decided to give my career a new focus, and started a certification in the <b>MITxPro program “Professional full stack developer with MERN”</b>, certification that I am studying at the moment, here seriously begins my path towards programming.</p>
+                        </div>
+                        </div>
+                    </div>
+                    
+                  
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="my-skills" class="skills">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                        <h1 class="text-center"><img src="./images/icon-skills.jpg" alt="skills" width="50"> My Skills</h1>
+                        </div>
+                    </div>
+                    <div class="row grid-container">
+                      
+                        <div class="area">
+                            <div class="skill">
+                                <div class="outer">
+                                    <div class="inner">
+                                        <img src="./images/skills/photoshop.png" alt="photoshop" >
+                                        <div class="number" id="number0">
+                                            85%
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140px" height="140px">
+                                    <defs>
+                                       <linearGradient id="GradientColor">
+                                          <stop offset="0%" stop-color="#8a67ff" />
+                                          <stop offset="100%" stop-color="#d66aff" />
+                                       </linearGradient>
+                                    </defs>
+                                    <circle cx="70" cy="70" r="60" stroke-linecap="round" class="circle circle-transition"/>
+                            </svg>
+                            </div>
+                        </div>
+
+                        <div class="area">
+                            <div class="skill">
+                                <div class="outer">
+                                    <div class="inner">
+                                        <img src="./images/skills/illustrator.png" alt="illustrator" >
+                                        <div class="number" id="number1">
+                                            85%
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140px" height="140px">
+                                    <defs>
+                                       <linearGradient id="GradientColor">
+                                          <stop offset="0%" stop-color="#8a67ff" />
+                                          <stop offset="100%" stop-color="#d66aff" />
+                                       </linearGradient>
+                                    </defs>
+                                    <circle cx="70" cy="70" r="60" stroke-linecap="round" class="circle circle-transition"/>
+                            </svg>
+                            </div>
+                        </div>
+
+                        <div class="area">
+                            <div class="skill">
+                                <div class="outer">
+                                    <div class="inner">
+                                        <img src="./images/skills/xd.png" alt="xd" >
+                                        <div class="number" id="number2">
+                                            75%
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140px" height="140px">
+                                    <defs>
+                                       <linearGradient id="GradientColor">
+                                          <stop offset="0%" stop-color="#8a67ff" />
+                                          <stop offset="100%" stop-color="#d66aff" />
+                                       </linearGradient>
+                                    </defs>
+                                    <circle cx="70" cy="70" r="60" stroke-linecap="round" class="circle circle-transition1"/>
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="area">
+                            <div class="skill">
+                                <div class="outer">
+                                    <div class="inner">
+                                        <img src="./images/skills/after-effects.png" alt="after-effects" >
+                                        <div class="number" id="number3">
+                                            45%
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140px" height="140px">
+                                    <defs>
+                                       <linearGradient id="GradientColor">
+                                          <stop offset="0%" stop-color="#8a67ff" />
+                                          <stop offset="100%" stop-color="#d66aff" />
+                                       </linearGradient>
+                                    </defs>
+                                    <circle cx="70" cy="70" r="60" stroke-linecap="round" class="circle circle-transition2"/>
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="area">
+                            <div class="skill">
+                                <div class="outer">
+                                    <div class="inner">
+                                        <img src="./images/skills/html.png" alt="HTML"  >
+                                        <div class="number" id="number4">
+                                            85%
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140px" height="140px">
+                                    <defs>
+                                       <linearGradient id="GradientColor">
+                                          <stop offset="0%" stop-color="#8a67ff" />
+                                          <stop offset="100%" stop-color="#d66aff" />
+                                       </linearGradient>
+                                    </defs>
+                                    <circle cx="70" cy="70" r="60" stroke-linecap="round" class="circle circle-transition"/>
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="area">
+                            <div class="skill">
+                                <div class="outer">
+                                    <div class="inner">
+                                        <img src="./images/skills/css-3.png" alt="css"  >
+                                        <div class="number" id="number5">
+                                            85%
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140px" height="140px">
+                                    <defs>
+                                       <linearGradient id="GradientColor">
+                                          <stop offset="0%" stop-color="#8a67ff" />
+                                          <stop offset="100%" stop-color="#d66aff" />
+                                       </linearGradient>
+                                    </defs>
+                                    <circle cx="70" cy="70" r="60" stroke-linecap="round" class="circle circle-transition"/>
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="area">
+                            <div class="skill">
+                                <div class="outer">
+                                    <div class="inner">
+                                        <img src="./images/skills/bootstrap.png" alt="bootstrap" >
+                                        <div class="number" id="number6">
+                                            75%
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140px" height="140px">
+                                    <defs>
+                                       <linearGradient id="GradientColor">
+                                          <stop offset="0%" stop-color="#8a67ff" />
+                                          <stop offset="100%" stop-color="#d66aff" />
+                                       </linearGradient>
+                                    </defs>
+                                    <circle cx="70" cy="70" r="60" stroke-linecap="round" class="circle circle-transition1"/>
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="area">
+                            <div class="skill">
+                                <div class="outer">
+                                    <div class="inner">
+                                        <img src="./images/skills/js.png" alt="js" >
+                                        <div class="number" id="number7">
+                                            45%
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="140px" height="140px">
+                                    <defs>
+                                       <linearGradient id="GradientColor">
+                                          <stop offset="0%" stop-color="#8a67ff" />
+                                          <stop offset="100%" stop-color="#d66aff" />
+                                       </linearGradient>
+                                    </defs>
+                                    <circle cx="70" cy="70" r="60" stroke-linecap="round" class="circle circle-transition2"/>
+                            </svg>
+                            </div>
+                        </div>
+                    </div>
+
+        </section>
+        
+        <section id="my-work" class="projects">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center"><img src="./images/icon-rocket.jpg" alt="skills" width="50"> My Projects</h1>
+                        </div>
+                    <div class="col-12 cards">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                            <div class="card">
+                                <img src="./images/projects/pacmen.jpg" class="card-img-top" alt="PacMen Exercise">
+                                <div class="card-body">
+                                  <h5 class="card-title">PacMen Exercise</h5>
+                                  <p class="card-text">This project was made for MITxPro web developer certification. This is a Factory for making pacmen and make them move.</p>
+                                </div>
+                                <div class="card-body">
+                                  <!-- <a href="#" class="btn btn-primary">Learn more</a> -->
+                                  <a href="https://github.com/agusroig/PacMen-Exercise" target="_blank" class="btn btn-primary">Github project</a>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-12 col-md-4">
+                                <div class="card">
+                                    <img src="./images/projects/oneeye.png" class="card-img-top" alt="Eye Exercis">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Eye Exercise</h5>
+                                      <p class="card-text">This project was made for MITxPro web developer certification. These are animated eyeballs that follows the mouse movement.</p>
+                                    </div>
+                                    <div class="card-body">
+                                      <!-- <a href="#" class="btn btn-primary">Learn more</a> -->
+                                      <a href="https://github.com/agusroig/Eye-Exercise" target="_blank" class="btn btn-primary">Github project</a>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-12 col-md-4">
+                                    <div class="card">
+                                        <img src="./images/projects/screen-shot.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Real Time Bus Tracker</h5>
+                                          <p class="card-text">This project is based on the MITxPro "Real Time Bus Tracker" exercise. The adaptation changes the scenario, now located in the city of BA.</p>
+                                        </div>
+                                        <div class="card-body">
+                                          <!-- <a href="#" class="btn btn-primary">See more</a> -->
+                                          <a href="https://github.com/agusroig/real-time-bus-tracker" target="_blank" class="btn btn-primary">Github project</a>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                    </div>
+                </div>
+                </div>
+
+
+        </section>
+
+<section class="footer">
+        <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 ">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+              </a>
+              <span >&copy; 2022 Copyright</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"> <a class="nav-link" href="https://www.linkedin.com/in/maria-agustina-roig-52b86264/" target="_blank"><img src="./images/linkedin-white.png" alt="Linkedin" width="30"></a></li>
+                <li class="ms-3"> <a class="nav-link" href="https://twitter.com/agustina_roig1" target="_blank"><img src="./images/twitter-white.png" alt="Twitter" width="30"></a></li>
+                    <li class="ms-3"> <a class="nav-link" href="https://github.com/agusroig" target="_blank"><img src="./images/github-white.png" alt="Github" width="30"></a></li>
+            </ul>
+          </footer>
+          <a href="#top" id="top-circle"> <img src="./images/back-top.svg" alt="top" class="top" ></a>
+        </div>
+    </section>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Let's Talk</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            To: <a href="mailto:agustina.roig@gmail.com" class="link"> agustina.roig@gmail.com </a>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">your Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Your comment</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- Bootstrap -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+<script src="./script.js"></script>
+</body>
+
 </html>
