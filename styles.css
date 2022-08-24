@@ -27,7 +27,6 @@ a.link:hover{color: #555;}
     font-size: 1.3rem;
     padding: 1rem;
     cursor: pointer;
-    font-weight: bold;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: #75fbe7;
@@ -37,9 +36,9 @@ a.link:hover{color: #555;}
     font-weight: bold;
 
 }
-.navbar-expand-lg .navbar-nav .nav-link.active::before{
+.navbar-expand-lg .navbar-nav .nav-link.active::before, .navbar-expand-lg .navbar-nav .nav-link:hover::before{
     content: "";
-    border-bottom: 3px solid #fff;
+    border-bottom: 2px solid #fff;
     width: 30px;
     position: absolute;
     margin-top: 25px;
@@ -62,7 +61,7 @@ header h5{font-size: 3rem; font-weight: 300; color: #75fbe7;}
 header h1{font-size: 4.5rem; font-weight: bold; color: #fff;}
 header h2{font-size: 4rem; font-weight: 300; color: #fff;}
 header h2 span{font-weight: bold;}
-header button.btn-primary{margin-top: 2rem; font-size: 2rem!important; background-color: #DB55ED; border:2px solid #DB55ED; color: #fff; font-weight: 600;}
+header button.btn-primary, header button.btn-primary:visited{margin-top: 2rem; font-size: 2rem!important; background-color: #DB55ED; border:2px solid #DB55ED; color: #fff; font-weight: 600;}
 header button.btn-primary:hover{background-color: transparent; color: #fff; border:2px solid #fff; }
 
 /* section */
@@ -71,7 +70,7 @@ section{padding: 4.5rem 0;}
 section h1{font-size: 3.7rem; font-weight: bold; color:#691d92;display: inline-block;}
 section h1:before{
     content: '';
-    border-bottom: #8c44b2 1px solid;
+    border-bottom: #8c44b254 1px solid;
     position: absolute;
     left: 50rem;
     margin-top: 2.5rem;
@@ -90,12 +89,13 @@ section p.lead{
 
 
 /* about me section */
+iframe{max-width: 100%; display: block; margin: auto;}
 .background-about:before{
     content: '';
     background-color: #f4eeff; 
     position:absolute;
     left: 0;
-    width: 45%;
+    width: 44%;
     height: 70rem;
     margin-top: 2rem;
     border-top-right-radius: 8rem;
@@ -190,8 +190,8 @@ svg{
    }
 .card{
     border-radius: 12px;
-    box-shadow: 4px 4px 8px 0.5px rgb(0 0 0 / 15%), -4px -4px 7px 1px rgb(255 255 255 / 70%);
-    border: none;
+    /* box-shadow: 4px 4px 8px 0.5px rgb(0 0 0 / 15%), -4px -4px 7px 1px rgb(255 255 255 / 70%); */
+   
 }
 .card .btn-primary{
     background-color: #75fbe7;
@@ -252,10 +252,28 @@ h5.modal-title{
     .hero-text {
         padding: 2rem 0;
     }
-    iframe{max-width: 100%; display: block; margin: auto;}
+
     header{
         background-position-x: 80%;
     }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+    }
+    .navbar {
+        position: relative;
+        background: white;
+
+}
+.navbar-brand {
+    color: #8c44b2;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #8c44b2;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
 }
 /* md */
 @media all and (max-width: 768px) {
