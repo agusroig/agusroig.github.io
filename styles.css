@@ -41,8 +41,10 @@ a.link:hover{color: #555;}
     border-bottom: 2px solid #fff;
     width: 30px;
     position: absolute;
+    font-weight: bold;
     margin-top: 25px;
 }
+.navbar-expand-lg .navbar-nav .nav-link.social:hover::before{border:none;}
 
 /* header */
 header{
@@ -149,9 +151,9 @@ circle{
     stroke-dasharray: 410;
     stroke-dashoffset: 410;
 }
-.circle-transition{animation: anim 2s linear forwards;}
-.circle-transition1{animation: anim1 2s linear forwards;}
-.circle-transition2{animation: anim2 2s linear forwards;}
+.circle-transition{animation: anim 1.5s linear forwards;}
+.circle-transition1{animation: anim1 1.2s linear forwards;}
+.circle-transition2{animation: anim2 1s linear forwards;}
 svg{
     position: absolute;
     top:0;
@@ -188,6 +190,12 @@ svg{
 .cards{
     margin-top: 4rem;
    }
+.card:hover{animation: animcard 0.5s ease-in-out forwards;}
+@keyframes animcard{
+    100%{
+        margin-top: -1rem;
+    }
+}
 .card{
     border-radius: 12px;
     /* box-shadow: 4px 4px 8px 0.5px rgb(0 0 0 / 15%), -4px -4px 7px 1px rgb(255 255 255 / 70%); */
@@ -197,7 +205,9 @@ svg{
     background-color: #75fbe7;
     border-color: #75fbe7;
     color: #555;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    float: right;
+
 }
 .card .btn-primary:hover{
     background-color: #DB55ED;
@@ -217,7 +227,7 @@ svg{
 /* footer */
 .footer{
     background: rgb(50,46,160);
-    background: linear-gradient(90deg, rgba(50,46,160,1) 0%, rgba(85,12,133,1) 100%);
+    background: linear-gradient(90deg, rgb(50 30 97) 0%, rgb(56 10 86) 100%);
 }
 footer{color:#fff;}
 .top{width: 7rem; position:fixed; right: 2rem; bottom: 20rem; display: none;}
@@ -273,7 +283,7 @@ h5.modal-title{
 .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: #000;
 }
-
+.navbar-expand-lg .navbar-nav .nav-link.social{display: none;}
 }
 /* md */
 @media all and (max-width: 768px) {

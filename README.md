@@ -37,7 +37,6 @@
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/agusroig" target="_blank">Author</a>
 </p>
@@ -46,13 +45,15 @@
 
 ## :dart: About ##
 
-This is my personal portfolio, here you can find a little bit about me, my interests and skills, and some of my projects.
+This is my personal portfolio, here you can find a little bit about me, my interests and skills, and an overview to some of my projects.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: A little bit about me
+
+:heavy_check_mark: My skills
+
+:heavy_check_mark: My projects
 
 ## :rocket: Technologies ##
 
@@ -68,23 +69,6 @@ The following tools were used in this project:
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Starting ##
-
-```bash
-# Clone this project
-$ git clone https://github.com/agusroig/agusroig-github-io
-
-# Access
-$ cd agusroig-github-io
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-```
 
 ## :memo: License ##
 
