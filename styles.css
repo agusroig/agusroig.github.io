@@ -27,6 +27,7 @@ a.link:hover{color: #555;}
     font-size: 1.3rem;
     padding: 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
 .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: #75fbe7;
@@ -62,7 +63,7 @@ header button.btn-primary:hover{background-color: transparent; color: #fff; bord
 /* section */
 
 section{padding: 4.5rem 0;}
-section h1{font-size: 3.7rem; font-weight: bold; color:#691d92;display: inline-block;}
+section h1{font-size: 3.7rem; font-weight: bold; color:#a447d7; display: inline-block;}
 section h1:before{
     content: '';
     border-bottom: #8c44b254 1px solid;
