@@ -15,7 +15,6 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/agusroig/agusroig-github-io?color=691d92">
 
-  <img alt="License" src="https://img.shields.io/github/license/agusroig/agusroig-github-io?color=691d92">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/agusroig/agusroig-github-io?color=56BEB8" /> -->
 
