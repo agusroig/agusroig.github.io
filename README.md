@@ -44,6 +44,8 @@
 
 This is my personal portfolio, here you can find a little bit about me, my interests and skills, and an overview to some of my projects.
 
+[live project](https://agusroig.github.io/)  
+
 ## :sparkles: Features ##
 
 :heavy_check_mark: A little bit about me
