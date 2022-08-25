@@ -7,12 +7,12 @@ a.link:hover{color: #555;}
 
 /* navbar */
 .navbar{
-    position: absolute;
-    background: transparent;
+    /* position: absolute; */
+    background: #32046ede;
     width: 100%;
     padding: 1.8rem;
 }
-
+.transparency{background: #32046eb3;}
 .navbar-brand {color:#fff; font-size: 1.5rem;}
 .navbar-collapse{color:#fff;}
 .navbar-expand-lg .navbar-nav {
@@ -22,7 +22,7 @@ a.link:hover{color: #555;}
     justify-content: end;
     color: #fff;
 }
-.navbar-expand-lg .navbar-nav .nav-link {
+.navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-nav .nav-link2 {
     color: #fff;
     font-size: 1.3rem;
     padding: 1rem;
@@ -36,15 +36,7 @@ a.link:hover{color: #555;}
     font-weight: bold;
 
 }
-.navbar-expand-lg .navbar-nav .nav-link.active::before, .navbar-expand-lg .navbar-nav .nav-link:hover::before{
-    content: "";
-    border-bottom: 2px solid #fff;
-    width: 30px;
-    position: absolute;
-    font-weight: bold;
-    margin-top: 25px;
-}
-.navbar-expand-lg .navbar-nav .nav-link.social:hover::before{border:none;}
+
 
 /* header */
 header{
@@ -54,6 +46,7 @@ header{
     background-repeat: no-repeat;
     background-position-x: right;
     height: 60rem;
+    margin-top: -80px;
 }
 header img{
     max-width: 100%;
@@ -265,6 +258,7 @@ h5.modal-title{
 
     header{
         background-position-x: 80%;
+        margin-top: 0;
     }
     .navbar-expand-lg .navbar-nav {
         flex-direction: column;

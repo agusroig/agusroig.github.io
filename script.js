@@ -1,18 +1,20 @@
-// const ids = [...document.querySelectorAll('.number')].map(el => el.id);
-// console.log(ids);
-// ids.forEach(element => {
-// let number = document.getElementById(element);
-// let counter = 0;
 
-// setInterval(() => {
-//     if(counter == 90){
-//         clearInterval();
-//     } else{
-//         counter += 1;
-//         number.innerHTML = counter + "%";
-//     }
-// },25);
-// },);
+// get active link on click
+const links = document.querySelectorAll('.nav-link');
+    
+if (links.length) {
+  links.forEach((link) => {
+    link.addEventListener('click', (e) => {
+      links.forEach((link) => {
+          link.classList.remove('active');
+      });
+      e.preventDefault();
+      link.classList.add('active');
+    });
+  });
+}
+
+// start skills animation when is visible
 
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -30,7 +32,6 @@ const observer = new IntersectionObserver(entries => {
         circle2.forEach( el => {
             el.classList.add('circle-transition2');
         })   
-       
         return; // if we added the class, exit the function
       } 
       // We're not intersecting, so remove the class!
@@ -47,11 +48,9 @@ const observer = new IntersectionObserver(entries => {
   });
 
   
-  observer.observe(document.querySelector('.skills'));
-
+observer.observe(document.querySelector('.skills'));
 
 //   smooth scroll
-  
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
